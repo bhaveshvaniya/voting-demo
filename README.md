@@ -7,3 +7,14 @@ This is demo for voting in laravel framework
 (5) Voter can login with his login detals , thay can get the all polls list and give voting of pools ,
 (6) admin and voter bothe can see the total count of option of voting in list.
 
+Admin details 
+============================
+Username : admin@admin.com
+Password : Admin@123
+
+----------------------
+Voter details 
+============================
+Username : bhavesh@yopmail.com
+Password : Voter@123
+
