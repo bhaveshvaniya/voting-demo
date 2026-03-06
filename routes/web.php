@@ -88,6 +88,11 @@ Route::group([], function(){
         Route::post('voters/list', [App\Http\Controllers\Backend\VoterController::class, 'list'])->name('polls.list');
         Route::resource('voters', App\Http\Controllers\Backend\VoterController::class);
 
+        Route::get('contact/view/{id}', [App\Http\Controllers\Backend\PollController::class, 'view'])->name('polls.view');
+         Route::get('contact/delete/{id}', [App\Http\Controllers\Backend\PollController::class, 'delete'])->name('polls.delete');
+         Route::post('contact/list', [App\Http\Controllers\Backend\PollController::class, 'list'])->name('polls.list');
+         Route::resource('contact', App\Http\Controllers\Backend\PollController::class);
+
 
 
     });
